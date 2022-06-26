@@ -5,9 +5,6 @@
 .navbar__logo {
   width: 15vw; }
 
-.navbar .nav-link {
-  display: none; }
-
 .navbar .container-fluid {
   display: flex;
   flex-wrap: inherit;
