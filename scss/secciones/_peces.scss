@@ -11,36 +11,46 @@
 
     }
 
+    .fa-solid {
+        position: fixed;
+        color: white;
+        transform: translate(-199px, -412px);
+        font-size: 2em;
+    }
+
 
     .foto {
         width: 100vw;
     }
 
-    #fixmenu {
-        position: fixed;
+    #fimenu {
+        position: absolute;
+        top: 140px;
+        width: 100%;
         background-color: #5e8bc552;
     }
 
-    .menu-fixed {
+    .menu-fi {
         display: flex;
-    flex-direction: row;
-    width: 100vw;
-    align-items: center;
-    justify-content: space-evenly;
+        flex-direction: row;
+        width: 100vw;
+        align-items: center;
+        background-color: rgb(12, 12, 12);
+        justify-content: space-evenly;
 
-        li{
+
+        li {
             list-style: none;
             padding: 2px;
-           
+
+
         }
 
-        a{
+        a {
             text-decoration: none;
-            font-size:0.9em;
-            color:black; 
-            text-shadow:1px 1px #5E8BC5;
+            font-size: 1em;
+            color: #ffc107;
             padding: 3px;
-            background-color: white;
 
         }
     }

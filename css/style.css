@@ -110,27 +110,33 @@
     text-align: center;
     font-size: 3.5em;
     color: rgba(255, 255, 255, 0.911); }
+  .peces .fa-solid {
+    position: fixed;
+    color: white;
+    transform: translate(-199px, -412px);
+    font-size: 2em; }
   .peces .foto {
     width: 100vw; }
-  .peces #fixmenu {
-    position: fixed;
+  .peces #fimenu {
+    position: absolute;
+    top: 140px;
+    width: 100%;
     background-color: #5e8bc552; }
-  .peces .menu-fixed {
+  .peces .menu-fi {
     display: flex;
     flex-direction: row;
     width: 100vw;
     align-items: center;
+    background-color: #0c0c0c;
     justify-content: space-evenly; }
-    .peces .menu-fixed li {
+    .peces .menu-fi li {
       list-style: none;
       padding: 2px; }
-    .peces .menu-fixed a {
+    .peces .menu-fi a {
       text-decoration: none;
-      font-size: 0.9em;
-      color: black;
-      text-shadow: 1px 1px #5E8BC5;
-      padding: 3px;
-      background-color: white; }
+      font-size: 1em;
+      color: #ffc107;
+      padding: 3px; }
   .peces .cajaPeces {
     display: flex;
     flex-direction: column;
