@@ -1,0 +1,28 @@
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    &__titulo{
+        text-align: center;
+    font-size: 3.5em;
+    color:white;
+
+    }
+
+    .foto{
+        width: 100vw;
+    }
+
+    &__p{
+        color: white;
+        max-width: 436px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .form-label{
+        color: red;
+        
+    }
+
+}

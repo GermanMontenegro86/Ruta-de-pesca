@@ -113,12 +113,11 @@
   .peces .fa-solid {
     position: fixed;
     color: white;
-    transform: translate(-199px, -412px);
+    transform: translate(-199px, -44px);
     font-size: 2em; }
   .peces .foto {
     width: 100vw; }
   .peces #fimenu {
-    position: absolute;
     top: 140px;
     width: 100%;
     background-color: #5e8bc552; }
@@ -161,3 +160,21 @@
       color: red;
       font-weight: 900;
       font-size: 1.1em; }
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  background-color: black; }
+  .nosotros__titulo {
+    text-align: center;
+    font-size: 3.5em;
+    color: white; }
+  .nosotros .foto {
+    width: 100vw; }
+  .nosotros__p {
+    color: white;
+    max-width: 436px;
+    text-align: center;
+    font-size: 1.2em; }
+  .nosotros .form-label {
+    color: red; }
