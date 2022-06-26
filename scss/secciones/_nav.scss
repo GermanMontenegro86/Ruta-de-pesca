@@ -1,0 +1,30 @@
+.navbar {
+
+    &__logo {
+        width: 15vw;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
+    }
+
+     a {
+        color: rgb(30, 15, 238);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5em;
+    }
+    
+    .dropdown-menu {
+        background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
+    }
+    
+    .navbar-brand {
+        box-shadow: 1px 1px 2px rgba(0, 174, 255, 0.219);
+    }
+   
+}

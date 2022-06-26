@@ -1,0 +1,23 @@
+.footer{
+    display: grid;
+    background-color: black;
+    color: white;
+    grid-template-areas:
+        "redes redes"
+        "nombre nombre";
+        &__nombre{
+            
+                text-align: center;
+                font-size: 0.6em;
+                margin-top: 10px;
+            }
+
+      &__redes{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    margin-top: 10px;
+      }      
+        
+}

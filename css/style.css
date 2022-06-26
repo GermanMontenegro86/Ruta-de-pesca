@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.body {
+  background-color: #050505; }
+
+.navbar__logo {
+  width: 15vw; }
+
+.navbar .container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6); }
+
+.navbar a {
+  color: #1e0fee;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em; }
+
+.navbar .dropdown-menu {
+  background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6); }
+
+.navbar .navbar-brand {
+  box-shadow: 1px 1px 2px rgba(0, 174, 255, 0.219); }
+
+.header {
+  background: linear-gradient(90deg, #040404 0%, rgba(11, 11, 11, 0.896796) 42%, rgba(8, 8, 8, 0.669905) 79%, rgba(0, 0, 0, 0.566264) 99%); }
+  .header__titulo {
+    text-align: center;
+    font-size: 3.5em;
+    color: rgba(255, 255, 255, 0.911); }
+  .header .foto {
+    width: 100vw; }
+
+.main {
+  display: flex;
+  flex-direction: column; }
+  .main__parrafo {
+    font-size: 1.2em;
+    max-width: 390px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    box-shadow: 2px 3px 2px black;
+    margin-top: 5px;
+    text-align: center; }
+  .main__h2 {
+    color: red;
+    font-size: 2em; }
+  .main__fot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=800&h=300); }
+  .main__fot img {
+    width: 30vw;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 12px; }
+  .main__pueblos {
+    width: 100vw;
+    margin-top: 5px; }
+    .main__pueblos li {
+      list-style: none;
+      padding: 10px; }
+    .main__pueblos a {
+      color: white;
+      font-size: 1.5em;
+      text-decoration: none;
+      background-color: rgba(240, 248, 255, 0.151); }
+      .main__pueblos a:visited {
+        background-color: yellow;
+        border-color: hotpink;
+        color: hotpink; }
+
+.footer {
+  display: grid;
+  background-color: black;
+  color: white;
+  grid-template-areas: "redes redes" "nombre nombre"; }
+  .footer__nombre {
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: 10px; }
+  .footer__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    margin-top: 10px; }
