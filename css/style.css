@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0; }
 
-.navbar__logo {
+.navbar .navbar__logo {
   width: 15vw; }
 
 .navbar .container-fluid {
@@ -19,9 +19,23 @@
 .navbar .navbar-brand {
   box-shadow: 1px 1px 2px rgba(0, 174, 255, 0.219); }
 
+.navbar .navbar-toggler {
+  background-color: chartreuse; }
+
+.navbar .nav-link {
+  color: red;
+  font-size: 1.2em;
+  font-weight: 500; }
+
+.navbar .dropdown-item {
+  color: red;
+  font-size: 1.2em;
+  font-weight: 500; }
+
 .lugares {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: black; }
   .lugares__titulo {
     text-align: center;
     font-size: 3.5em;
@@ -29,7 +43,8 @@
   .lugares__h2 {
     text-align: center;
     color: red;
-    font-size: 2em; }
+    font-size: 2em;
+    background: linear-gradient(0deg, rgba(180, 25, 203, 0.625088) 0%, rgba(240, 0, 222, 0.515844) 23%, rgba(216, 26, 221, 0.459821) 53%, rgba(252, 5, 197, 0.445816) 99%); }
   .lugares .foto {
     width: 100vw; }
   .lugares__pueblos {
@@ -40,10 +55,9 @@
       padding: 10px;
       text-align: center; }
     .lugares__pueblos a {
-      color: #18df11;
-      text-decoration: none; }
-      .lugares__pueblos a:visited {
-        color: red; }
+      color: #117bdf;
+      text-decoration: none;
+      font-size: 2em; }
 
 .index {
   background-image: url("https://fondosmil.com/fondo/79546.jpg");
@@ -52,7 +66,7 @@
   .index__titulo {
     text-align: center;
     font-size: 3.5em;
-    color: rgba(226, 13, 13, 0.911); }
+    color: blue; }
   .index .carrusel {
     width: 100vw; }
   .index .indexMain p {

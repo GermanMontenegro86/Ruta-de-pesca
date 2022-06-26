@@ -1,17 +1,19 @@
 .lugares {
     display: flex;
     flex-direction: column;
-
+    background-color: black;
     &__titulo{
         text-align: center;
     font-size: 3.5em;
     color: rgba(255, 255, 255, 0.911);
+
     }
 
     &__h2 {
         text-align: center;
         color: red;
         font-size: 2em;
+        background:linear-gradient(0deg, rgba(180,25,203,0.6250875350140056) 0%, rgba(240,0,222,0.5158438375350141) 23%, rgba(216,26,221,0.4598214285714286) 53%, rgba(252,5,197,0.4458158263305322) 99%);
 
     }
 
@@ -34,11 +36,10 @@
         }
 
         a{
-            color: rgb(24, 223, 17);
+            color: rgb(17, 123, 223);
            text-decoration: none;
-           &:visited{
-            color: red;
-           }
+           font-size: 2em;
+         
          
             
         }
