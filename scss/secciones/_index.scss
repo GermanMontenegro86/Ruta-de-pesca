@@ -17,23 +17,13 @@
     .indexMain {
 
         p {
-            color: white;
-            text-align: center;
-            max-width: 411px;
-            font-size: 1.2em;
-            background-color: rgba(3, 3, 3, 0.753);
-            margin-top: 10px;
-            box-shadow: 1px 1px 1px 1px black;
+           @extend %parrafos;
+           @include styleparra($colorfondotexto, $colortitulo);
            
         }
 
-
-
-
         &__caja {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
+            @extend %flexrow;
 
             img {
                 width: 30vw;

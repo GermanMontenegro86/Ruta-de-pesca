@@ -1,0 +1,31 @@
+// aca van extend
+%parrafos {
+    color: white;
+    max-width: 436px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: rgba(3, 3, 3, 0.753);
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+%flexcolumn{
+    display: flex;
+    flex-direction: column ;
+}
+
+%flexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+// aca van mixin
+@mixin styleparra ($colorfondotexto, $colortitulo){
+    background-color: $colorfondotexto;
+    font-family: sans-serif;
+    color:$colortitulo;
+    
+    
+    
+}

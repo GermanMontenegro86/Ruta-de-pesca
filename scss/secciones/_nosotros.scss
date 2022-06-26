@@ -1,11 +1,11 @@
 .nosotros{
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: $colorfondo;
     &__titulo{
         text-align: center;
     font-size: 3.5em;
-    color:white;
+    color:$colortitulo;
 
     }
 
@@ -14,10 +14,8 @@
     }
 
     &__p{
-        color: white;
-        max-width: 436px;
-        text-align: center;
-        font-size: 1.2em;
+       @extend %parrafos;
+       @include styleparra( rgba(255, 0, 0, 0.212), $colortitulo);
     }
 
     .form-label{

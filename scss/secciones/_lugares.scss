@@ -1,11 +1,10 @@
 .lugares {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
+   @extend %flexcolumn;
+    background-color:$colorfondo;
     &__titulo{
         text-align: center;
     font-size: 3.5em;
-    color: rgba(255, 255, 255, 0.911);
+    color: $colortitulo;
 
     }
 
