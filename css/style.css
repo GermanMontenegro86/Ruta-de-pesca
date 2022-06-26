@@ -112,6 +112,25 @@
     color: rgba(255, 255, 255, 0.911); }
   .peces .foto {
     width: 100vw; }
+  .peces #fixmenu {
+    position: fixed;
+    background-color: #5e8bc552; }
+  .peces .menu-fixed {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly; }
+    .peces .menu-fixed li {
+      list-style: none;
+      padding: 2px; }
+    .peces .menu-fixed a {
+      text-decoration: none;
+      font-size: 0.9em;
+      color: black;
+      text-shadow: 1px 1px #5E8BC5;
+      padding: 3px;
+      background-color: white; }
   .peces .cajaPeces {
     display: flex;
     flex-direction: column;
@@ -119,7 +138,7 @@
     .peces .cajaPeces h2 {
       color: red;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 36px;
       font: 2.8em sans-serif; }
     .peces .cajaPeces img {
       width: 50vw;
