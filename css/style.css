@@ -1,27 +1,33 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-.index .indexMain p, .nosotros__p {
+.index .indexMain p,
+.nosotros__p {
   color: white;
   max-width: 436px;
   text-align: center;
   font-size: 1.2em;
   background-color: rgba(3, 3, 3, 0.753);
   margin-top: 10px;
-  box-shadow: 1px 1px 1px 1px black; }
+  box-shadow: 1px 1px 1px 1px black;
+}
 
 .lugares {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .index .indexMain__caja {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .navbar .navbar__logo {
-  width: 15vw; }
+  width: 15vw;
+}
 
 .navbar .container-fluid {
   display: flex;
@@ -29,159 +35,309 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row-reverse;
-  background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6); }
+  background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
+}
 
 .navbar .dropdown-menu {
-  background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6); }
+  background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
+}
 
 .navbar .navbar-brand {
-  box-shadow: 1px 1px 2px rgba(0, 174, 255, 0.219); }
+  box-shadow: 1px 1px 2px rgba(0, 174, 255, 0.219);
+}
 
 .navbar .navbar-toggler {
-  background-color: chartreuse; }
+  background-color: chartreuse;
+}
 
 .navbar .nav-link {
   color: red;
   font-size: 1.2em;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .navbar .dropdown-item {
   color: red;
   font-size: 1.2em;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .index {
   background-image: url("https://fondosmil.com/fondo/79546.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
-  .index__titulo {
-    text-align: center;
-    font-size: 3.5em;
-    color: blue; }
-  .index .carrusel {
-    width: 100vw; }
-  .index .indexMain p {
-    background-color: rgba(17, 5, 61, 0.753);
-    font-family: sans-serif;
-    color: white; }
-  .index .indexMain__caja img {
-    width: 30vw;
-    margin: 2px;
-    box-shadow: 1px 1px 1px 1px black; }
+  background-size: cover;
+}
+
+.index__titulo {
+  text-align: center;
+  font-size: 3.5em;
+  color: blue;
+}
+
+.index .carrusel {
+  width: 100vw;
+}
+
+.index .indexMain p {
+  background-color: rgba(17, 5, 61, 0.753);
+  font-family: sans-serif;
+  color: white;
+}
+
+.index .indexMain__caja img {
+  width: 30vw;
+  margin: 2px;
+  box-shadow: 1px 1px 1px 1px black;
+}
 
 .footer {
   display: grid;
   background-color: black;
   color: white;
-  grid-template-areas: "redes redes" "nombre nombre"; }
-  .footer__nombre {
-    text-align: center;
-    font-size: 0.6em;
-    margin-top: 10px; }
-  .footer__redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 1.5em;
-    margin-top: 10px; }
+  grid-template-areas: "redes redes"
+    "nombre nombre";
+}
+
+.footer__nombre {
+  text-align: center;
+  font-size: 0.6em;
+  margin-top: 10px;
+}
+
+.footer__redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
 
 .lugares {
-  background-color: black; }
-  .lugares__titulo {
-    text-align: center;
-    font-size: 3.5em;
-    color: white; }
-  .lugares__h2 {
-    text-align: center;
-    color: red;
-    font-size: 2em;
-    background: linear-gradient(0deg, rgba(180, 25, 203, 0.625088) 0%, rgba(240, 0, 222, 0.515844) 23%, rgba(216, 26, 221, 0.459821) 53%, rgba(252, 5, 197, 0.445816) 99%); }
-  .lugares .foto {
-    width: 100vw; }
-  .lugares__pueblos {
-    width: 100vw;
-    margin-top: 5px; }
-    .lugares__pueblos li {
-      list-style: none;
-      padding: 10px;
-      text-align: center; }
-    .lugares__pueblos a {
-      color: #117bdf;
-      text-decoration: none;
-      font-size: 2em; }
+  background-color: black;
+}
+
+.lugares__titulo {
+  text-align: center;
+  font-size: 3.5em;
+  color: white;
+}
+
+.lugares__h2 {
+  text-align: center;
+  color: red;
+  font-size: 2em;
+  background: linear-gradient(0deg, rgba(180, 25, 203, 0.625088) 0%, rgba(240, 0, 222, 0.515844) 23%, rgba(216, 26, 221, 0.459821) 53%, rgba(252, 5, 197, 0.445816) 99%);
+}
+
+.lugares .foto {
+  width: 100vw;
+}
+
+.lugares__pueblos {
+  width: 100vw;
+  margin-top: 5px;
+}
+
+.lugares__pueblos li {
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.lugares__pueblos a {
+  color: #117bdf;
+  text-decoration: none;
+  font-size: 2em;
+}
 
 .peces {
   display: flex;
   flex-direction: column;
-  background-color: black; }
-  .peces__titulo {
-    text-align: center;
-    font-size: 3.5em;
-    color: white; }
-  .peces .fa-solid {
-    position: fixed;
-    color: white;
-    transform: translate(-199px, -44px);
-    font-size: 2em; }
-  .peces .foto {
-    width: 100vw; }
-  .peces #fimenu {
-    top: 140px;
-    width: 100%;
-    background-color: #5e8bc552; }
-  .peces .menu-fi {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    align-items: center;
-    background-color: #0c0c0c;
-    justify-content: space-evenly; }
-    .peces .menu-fi li {
-      list-style: none;
-      padding: 2px; }
-    .peces .menu-fi a {
-      text-decoration: none;
-      font-size: 1em;
-      color: #ffc107;
-      padding: 3px; }
-  .peces .cajaPeces {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .peces .cajaPeces h2 {
-      color: red;
-      text-align: center;
-      margin-top: 36px;
-      font: 2.8em sans-serif; }
-    .peces .cajaPeces img {
-      width: 50vw;
-      margin-top: 10px;
-      margin-bottom: 10px; }
-    .peces .cajaPeces li {
-      color: white;
-      margin-top: 5px;
-      list-style: none;
-      font-size: 1em;
-      max-width: 350px;
-      font-family: 'Courier New', Courier, monospace; }
-    .peces .cajaPeces__resaltar {
-      color: red;
-      font-weight: 900;
-      font-size: 1.1em; }
+  background-color: black;
+}
+
+.peces__titulo {
+  text-align: center;
+  font-size: 3.5em;
+  color: white;
+}
+
+.peces .fa-solid {
+  position: fixed;
+  color: white;
+  transform: translate(-199px, -44px);
+  font-size: 2em;
+}
+
+.peces .foto {
+  width: 100vw;
+}
+
+.peces #fimenu {
+  top: 140px;
+  width: 100%;
+  background-color: #5e8bc552;
+}
+
+.peces .menu-fi {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center;
+  background-color: #0c0c0c;
+  justify-content: space-evenly;
+}
+
+.peces .menu-fi li {
+  list-style: none;
+  padding: 2px;
+}
+
+.peces .menu-fi a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #ffc107;
+  padding: 3px;
+}
+
+.peces .cajaPeces {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.peces .cajaPeces h2 {
+  color: red;
+  text-align: center;
+  margin-top: 36px;
+  font: 2.8em sans-serif;
+}
+
+.peces .cajaPeces img {
+  width: 50vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.peces .cajaPeces li {
+  color: white;
+  margin-top: 5px;
+  list-style: none;
+  font-size: 1em;
+  max-width: 350px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.peces .cajaPeces__resaltar {
+  color: red;
+  font-weight: 900;
+  font-size: 1.1em;
+}
 
 .nosotros {
   display: flex;
   flex-direction: column;
-  background-color: black; }
-  .nosotros__titulo {
-    text-align: center;
-    font-size: 3.5em;
-    color: white; }
-  .nosotros .foto {
-    width: 100vw; }
+  background-color: black;
+}
+
+.nosotros__titulo {
+  text-align: center;
+  font-size: 3.5em;
+  color: white;
+}
+
+.nosotros .foto {
+  width: 100vw;
+}
+
+.nosotros__p {
+  background-color: rgba(255, 0, 0, 0.212);
+  font-family: sans-serif;
+  color: white;
+}
+
+.nosotros .form-label {
+  color: red;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .index__titulo {
+   
+    font-size: 7em;
+    
+  }
+
+  .index .indexMain p,
   .nosotros__p {
-    background-color: rgba(255, 0, 0, 0.212);
-    font-family: sans-serif;
-    color: white; }
-  .nosotros .form-label {
-    color: red; }
+    max-width: 850px;
+  }
+
+  .navbar .container-fluid {
+   
+    background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar .dropdown-menu {
+    background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar .nav-link {
+    font-size: 1.9em;
+  }
+
+  .navbar .dropdown-item {
+    color: #4d07ff;
+    font-size: 1.9em;
+    
+  }
+
+  .index .indexMain p {
+    font-size: 2em;
+  }
+
+  .peces__titulo {
+    font-size: 7em;
+  }
+
+  .peces .menu-fi a {
+    font-size: 2em;
+  }
+
+  .peces .fa-solid {
+    position: fixed;
+    color: white;
+    transform: translate(-372px, -67px);
+    font-size: 3em;
+  }
+
+
+
+  .peces .cajaPeces img {
+    width: 66vw;
+  }
+
+  .peces .cajaPeces h2 {
+    color: red;
+    text-align: center;
+    margin-top: 36px;
+    font: 5.800000000000001em sans-serif;
+  }
+
+  .peces .cajaPeces li {
+    font-size: 2em;
+    max-width: 638px;
+  }
+
+  .peces .foto {
+    width: 100vw;
+    height: 27vh;
+  }
+
+  
+
+}
