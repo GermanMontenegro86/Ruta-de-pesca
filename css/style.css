@@ -58,6 +58,8 @@
     text-align: center;
     font-size: 3.5em;
     color: blue; }
+  .index .fotoindex {
+    display: none; }
   .index .carrusel {
     width: 100vw; }
   .index .indexMain p {
@@ -253,54 +255,211 @@
   .btn {
     margin-top: 10px; } }
 
-@media (min-width: 924px) and (max-width: 1280px) {
-  .index__titulo {
-    font-size: 6em; }
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .navbar .navbar__logo {
+    width: 9vw;
+    border-radius: 300px; }
   .navbar .container-fluid {
+    margin-left: 3px;
+    flex-direction: row;
     background-image: none;
-    background-color: bisque; }
-  .navbar .dropdown-menu {
-    background-image: none;
-    background-color: bisque; }
+    background: linear-gradient(90deg, rgba(1, 1, 1, 0.496236) 0%, rgba(0, 0, 0, 0.765144) 42%, rgba(8, 8, 8, 0.899597) 79%, black 99%); }
+  .navbar-expand-lg .navbar-collapse {
+    margin-left: 378px; }
   .navbar .nav-link {
-    font-size: 1em;
-    color: black;
-    margin: 5px;
-    background-color: aqua;
-    border-radius: 10px; }
-  .navbar .nav-link:hover {
-    background-color: rgba(128, 255, 0, 0.562);
     color: white; }
-  .navbar .dropdown-item {
-    font-size: 1.6em; }
+  .index__titulo {
+    font-size: 5em;
+    color: #271cd0;
+    background-color: rgba(0, 0, 0, 0.151); }
   .carousel-inner {
     display: none; }
-  .carousel-control-prev-icon {
-    visibility: hidden; }
-  .carousel-control-next-icon {
-    visibility: hidden; }
-  .index .indexMain p {
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 47px;
-    margin-bottom: 16px; }
-  .index .indexMain__caja {
+  .btnIndex {
     display: none; }
+  .index .fotoindex {
+    display: block;
+    text-align: center; }
+  .index .fotoindex img {
+    width: 90vw;
+    height: 26vh; }
+  .main_lapto {
+    display: none; }
+  .index .indexMain p {
+    margin: auto;
+    max-width: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .lugares {
+    height: 95vh; }
+  .lugares__parrafo {
+    display: flex;
+    justify-content: space-around; }
+  .lugares__pueblos {
+    width: 31vw;
+    margin-top: 14px;
+    margin: 10px; }
+  .lugares__titulo {
+    font-size: 5em; }
   .lugares__h2 {
-    max-width: 80vw;
-    transform: translate(140px, 10px); }
+    background: none;
+    margin-top: 10px;
+    background-color: aqua;
+    text-align: center; }
   .lugares__pueblos img {
-    max-width: 48vw;
-    transform: translate(340px, 10px); }
-  .nosotros__p {
-    transform: translate(294px, 10px);
-    max-width: 721px; }
-  .for {
-    max-width: 46vw;
-    transform: translate(407px, 0px); }
+    margin-left: -1px;
+    height: 10vh; }
+  .lugares__pueblos a {
+    font-size: 1.5em;
+    background-color: rgba(26, 5, 59, 0.623);
+    border-radius: 5px;
+    font-family: sans-serif; }
+  .lugares__pueblos a:hover {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif; }
+  .peces__titulo {
+    font-size: 5em; }
   .peces .fa-solid {
-    transform: translate(-579px, -46px); }
+    transform: translate(-474px, -53px); }
+  .peces .menu-fi a {
+    font-size: 1.5em;
+    color: #f00606e3;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif; }
+  .peces .menu-fi a:hover {
+    background-color: blueviolet; }
   .peces .cajaPeces img {
-    width: 20vw; }
+    width: 26vw;
+    margin-top: 15px;
+    margin-bottom: 41px; }
   .peces .cajaPeces li {
-    max-width: 650vw; } }
+    margin-top: 28px;
+    max-width: 850px; }
+  .nosotros__titulo {
+    font-size: 5em; }
+  .nosotros__p {
+    margin: 0 auto;
+    max-width: 850px;
+    font-size: 2em;
+    margin-top: 15px; }
+  .noso_for {
+    background-color: #271cd045;
+    width: 55vw;
+    height: 49vh;
+    margin: auto;
+    margin-top: 148px;
+    margin-bottom: 359px;
+    border-radius: 7px; }
+  #exampleFormControlInput1 {
+    width: 25vw; }
+  #exampleFormControlTextarea1 {
+    height: 31vh; }
+  .btn {
+    margin-top: 10px; } }
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .navbar .navbar__logo {
+    width: 9vw;
+    border-radius: 300px; }
+  .navbar .container-fluid {
+    margin-left: 3px;
+    flex-direction: row;
+    background-image: none;
+    background: linear-gradient(90deg, rgba(1, 1, 1, 0.496236) 0%, rgba(0, 0, 0, 0.765144) 42%, rgba(8, 8, 8, 0.899597) 79%, black 99%); }
+  .navbar-expand-lg .navbar-collapse {
+    margin-left: 378px; }
+  .navbar .nav-link {
+    color: white; }
+  .index__titulo {
+    font-size: 5em;
+    color: #271cd0;
+    background-color: rgba(0, 0, 0, 0.151); }
+  .carousel-inner {
+    display: none; }
+  .btnIndex {
+    display: none; }
+  .index .fotoindex {
+    display: block;
+    text-align: center; }
+  .index .fotoindex img {
+    width: 45vw;
+    height: 30vh; }
+  .index .indexMain__caja img {
+    width: 13vw;
+    margin: 17px; }
+  .main_lapto {
+    display: none; }
+  .index .indexMain p {
+    margin: auto;
+    max-width: 1216px;
+    margin-top: 37px;
+    margin-bottom: 34px; }
+  .lugares {
+    height: 95vh; }
+  .lugares__parrafo {
+    display: flex;
+    justify-content: space-around; }
+  .lugares__pueblos {
+    width: 31vw;
+    margin-top: 14px;
+    margin: 10px; }
+  .lugares__titulo {
+    font-size: 5em; }
+  .lugares__h2 {
+    background: none;
+    margin-top: 10px;
+    background-color: aqua;
+    text-align: center; }
+  .lugares__pueblos img {
+    margin-left: -1px;
+    height: 41vh; }
+  .lugares__pueblos a {
+    font-size: 1.5em;
+    background-color: rgba(26, 5, 59, 0.623);
+    border-radius: 5px;
+    font-family: sans-serif; }
+  .lugares__pueblos a:hover {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif; }
+  .peces__titulo {
+    font-size: 5em; }
+  .peces .fa-solid {
+    transform: translate(-474px, -53px); }
+  .peces .menu-fi a {
+    font-size: 1.5em;
+    color: #f00606e3;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif; }
+  .peces .menu-fi a:hover {
+    background-color: blueviolet; }
+  .peces .cajaPeces img {
+    width: 26vw;
+    margin-top: 15px;
+    margin-bottom: 41px; }
+  .peces .cajaPeces li {
+    margin-top: 28px;
+    max-width: 850px; }
+  .nosotros__titulo {
+    font-size: 5em; }
+  .nosotros__p {
+    margin: 0 auto;
+    max-width: 850px;
+    font-size: 2em;
+    margin-top: 15px; }
+  .noso_for {
+    background-color: #271cd045;
+    width: 55vw;
+    height: 49vh;
+    margin: auto;
+    margin-top: 148px;
+    margin-bottom: 359px;
+    border-radius: 7px; }
+  #exampleFormControlInput1 {
+    width: 25vw; }
+  #exampleFormControlTextarea1 {
+    height: 31vh; }
+  .btn {
+    margin-top: 10px; } }

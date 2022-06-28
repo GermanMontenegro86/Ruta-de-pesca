@@ -1,4 +1,4 @@
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1440px) and (max-width: 2560px) {
 
     .navbar .navbar__logo {
         width: 9vw;
@@ -42,8 +42,13 @@
     }
 
     .index .fotoindex img {
-        width: 90vw;
-        height: 26vh;
+        width: 45vw;
+        height: 30vh;
+    }
+
+    .index .indexMain__caja img{
+        width: 13vw;
+    margin: 17px;
     }
 
     .main_lapto {
@@ -52,9 +57,9 @@
 
     .index .indexMain p {
         margin: auto;
-        max-width: 850px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        max-width: 1216px;
+        margin-top: 37px;
+        margin-bottom: 34px;
     }
 
     .lugares {
@@ -85,7 +90,7 @@
 
     .lugares__pueblos img {
         margin-left: -1px;
-        height: 10vh;
+        height: 41vh;
     }
 
     .lugares__pueblos a {
@@ -95,7 +100,7 @@
         font-family: sans-serif;
     }
 
-    .lugares__pueblos a:hover{
+    .lugares__pueblos a:hover {
         background-color: white;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -150,23 +155,21 @@
         height: 49vh;
         margin: auto;
         margin-top: 148px;
-       margin-bottom: 359px;
+        margin-bottom: 359px;
         border-radius: 7px;
     }
 
-    #exampleFormControlInput1{
+    #exampleFormControlInput1 {
         width: 25vw;
     }
 
-    #exampleFormControlTextarea1{
+    #exampleFormControlTextarea1 {
         height: 31vh;
     }
 
-    .btn{
+    .btn {
         margin-top: 10px;
     }
-
-
 
 
 
