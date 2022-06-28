@@ -9,17 +9,16 @@
     .index .indexMain p,
     .nosotros__p {
       max-width: 850px;
+      font-size: 20em;
     }
   
     .navbar .container-fluid {
      
-      background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
       background-repeat: no-repeat;
       background-size: cover;
     }
   
     .navbar .dropdown-menu {
-      background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -35,14 +34,16 @@
     }
 
     .index .carrusel{
-
-        width: 100vw;
+       
         height: 27vh;
-
     } 
   
     .index .indexMain p {
       font-size: 2em;
+    }
+
+    .lugares__titulo {
+        font-size: 7em;
     }
   
     .peces__titulo {
@@ -77,13 +78,12 @@
     }
   
     .peces .foto {
-      width: 100vw;
+     
       height: 27vh;
     }
 
     .lugares .foto{
-
-        width: 100vw;
+      
     height: 27vh;
   
     }

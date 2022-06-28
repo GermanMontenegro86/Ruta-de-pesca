@@ -191,13 +191,12 @@
     font-size: 7em; }
   .index .indexMain p,
   .nosotros__p {
-    max-width: 850px; }
+    max-width: 850px;
+    font-size: 20em; }
   .navbar .container-fluid {
-    background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
     background-repeat: no-repeat;
     background-size: cover; }
   .navbar .dropdown-menu {
-    background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
     background-repeat: no-repeat;
     background-size: cover; }
   .navbar .nav-link {
@@ -206,10 +205,11 @@
     color: #4d07ff;
     font-size: 1.9em; }
   .index .carrusel {
-    width: 100vw;
     height: 27vh; }
   .index .indexMain p {
     font-size: 2em; }
+  .lugares__titulo {
+    font-size: 7em; }
   .peces__titulo {
     font-size: 7em; }
   .peces .menu-fi a {
@@ -230,10 +230,8 @@
     font-size: 2em;
     max-width: 638px; }
   .peces .foto {
-    width: 100vw;
     height: 27vh; }
   .lugares .foto {
-    width: 100vw;
     height: 27vh; }
   .nosotros__titulo {
     font-size: 7em; }
@@ -254,3 +252,55 @@
     width: 80vw; }
   .btn {
     margin-top: 10px; } }
+
+@media (min-width: 924px) and (max-width: 1280px) {
+  .index__titulo {
+    font-size: 6em; }
+  .navbar .container-fluid {
+    background-image: none;
+    background-color: bisque; }
+  .navbar .dropdown-menu {
+    background-image: none;
+    background-color: bisque; }
+  .navbar .nav-link {
+    font-size: 1em;
+    color: black;
+    margin: 5px;
+    background-color: aqua;
+    border-radius: 10px; }
+  .navbar .nav-link:hover {
+    background-color: rgba(128, 255, 0, 0.562);
+    color: white; }
+  .navbar .dropdown-item {
+    font-size: 1.6em; }
+  .carousel-inner {
+    display: none; }
+  .carousel-control-prev-icon {
+    visibility: hidden; }
+  .carousel-control-next-icon {
+    visibility: hidden; }
+  .index .indexMain p {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 47px;
+    margin-bottom: 16px; }
+  .index .indexMain__caja {
+    display: none; }
+  .lugares__h2 {
+    max-width: 80vw;
+    transform: translate(140px, 10px); }
+  .lugares__pueblos img {
+    max-width: 48vw;
+    transform: translate(340px, 10px); }
+  .nosotros__p {
+    transform: translate(294px, 10px);
+    max-width: 721px; }
+  .for {
+    max-width: 46vw;
+    transform: translate(407px, 0px); }
+  .peces .fa-solid {
+    transform: translate(-579px, -46px); }
+  .peces .cajaPeces img {
+    width: 20vw; }
+  .peces .cajaPeces li {
+    max-width: 650vw; } }

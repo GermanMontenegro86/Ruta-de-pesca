@@ -1,0 +1,105 @@
+@media (min-width: 924px) and (max-width: 1280px) {
+
+    .index__titulo {
+
+        font-size: 6em;
+
+    }
+
+
+    .navbar .container-fluid {
+        background-image: none;
+        background-color: bisque;
+    }
+
+    .navbar .dropdown-menu {
+        background-image: none;
+        background-color: bisque;
+    }
+
+    .navbar .nav-link {
+        font-size: 1em;
+        color: black;
+        margin: 5px;
+        background-color: aqua;
+        border-radius: 10px;
+
+    }
+
+    .navbar .nav-link:hover {
+        background-color: rgba(128, 255, 0, 0.562);
+        color: white;
+
+    }
+
+
+    .navbar .dropdown-item {
+        font-size: 1.6em;
+    }
+
+    .carousel-inner {
+
+        display: none;
+
+    }
+
+    .carousel-control-prev-icon {
+        visibility: hidden;
+    }
+
+    .carousel-control-next-icon {
+        visibility: hidden;
+    }
+
+
+    .index .indexMain p {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 47px;
+        margin-bottom:16px;
+
+    }
+
+
+.index .indexMain__caja {
+    display: none;
+}
+
+.lugares__h2{
+    max-width: 80vw;
+    transform: translate(140px, 10px);
+}
+
+.lugares__pueblos img{
+    max-width: 48vw;
+    transform: translate(340px, 10px);
+}
+
+.nosotros__p{
+    transform: translate(294px, 10px);
+    max-width: 721px;
+}
+
+.for{
+    max-width: 46vw;
+    transform: translate(407px, 0px);
+}
+
+.peces .fa-solid{
+    transform: translate(-579px, -46px);
+}
+
+.peces .cajaPeces img{
+    width: 20vw;
+}
+
+.peces .cajaPeces li{
+    max-width: 650vw;
+}
+
+
+
+
+
+
+}
