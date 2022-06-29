@@ -177,6 +177,17 @@
         margin-top: 10px;
     }
 
+    .footer {
+        border-top: groove #3ace22;
+        grid: none;
+
+
+        &__redes {
+            justify-content: space-evenly;
+            margin-top: -39px;
+        }
+    }
+
 
 
 
