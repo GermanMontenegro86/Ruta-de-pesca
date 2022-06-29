@@ -83,9 +83,9 @@
   .footer__redes {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 1.5em;
-    margin-top: 10px; }
+    justify-content: space-evenly; }
+    .footer__redes a {
+      font-size: 1.5em; }
 
 .lugares {
   background-color: black; }
