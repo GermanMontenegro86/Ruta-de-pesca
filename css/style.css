@@ -73,6 +73,7 @@
 
 .footer {
   display: grid;
+  border-top: groove #3ace22;
   background-color: black;
   color: white;
   grid-template-areas: "redes redes" "nombre nombre"; }
@@ -191,6 +192,8 @@
     color: white; }
   .nosotros .form-label {
     color: red; }
+  .nosotros .btn {
+    margin-top: 12px; }
 
 @media only screen and (min-width: 768px) and (max-width: 914px) {
   .index__titulo {
