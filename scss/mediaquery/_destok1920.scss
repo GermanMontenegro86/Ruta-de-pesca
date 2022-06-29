@@ -1,4 +1,4 @@
-@media (min-width: 1440px) {
+@media (min-width: 1920px)  {
 
     .navbar .navbar__logo {
         width: 9vw;
@@ -13,16 +13,19 @@
     }
 
     .navbar-expand-lg .navbar-collapse {
-        margin-left: -60px;
+        margin-left: 378px;
 
     }
-
 
     .navbar .nav-link {
         color: white;
+         
+        ul{
+            margin-left: 807px;
+        }
     }
 
-    .navbar-expand-lg .navbar-nav {
+    .navbar-expand-lg .navbar-nav{
         margin-left: 807px;
     }
 
@@ -44,7 +47,7 @@
     .index .fotoindex {
         display: block;
         text-align: center;
-
+     
 
     }
 
@@ -54,9 +57,9 @@
         box-shadow: 2px 2px 3px black;
     }
 
-    .index .indexMain__caja img {
+    .index .indexMain__caja img{
         width: 13vw;
-        margin: 17px;
+    margin: 17px;
     }
 
     .main_lapto {
@@ -99,6 +102,7 @@
     .lugares__pueblos img {
         margin-left: -1px;
         height: 41vh;
+        
     }
 
     .lugares__pueblos a {
@@ -123,7 +127,7 @@
     }
 
     .peces .fa-solid {
-        transform: translate(-601px, -53px);
+        transform: translate(-847px, -53px);
     }
 
     .peces .menu-fi a {
@@ -140,7 +144,7 @@
     }
 
     .peces .cajaPeces img {
-        width: 16vw;
+        width: 10vw;
         margin-top: 15px;
         margin-bottom: 41px;
         box-shadow: 1px 1px 10px 10px #0b70e7;
