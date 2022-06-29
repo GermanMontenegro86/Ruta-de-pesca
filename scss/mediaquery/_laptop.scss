@@ -21,6 +21,11 @@
         color: white;
     }
 
+    .navbar .nav-link:hover {
+        background-color: rgba(0, 255, 255, 0.158);
+        border-radius: 10px;
+    }
+
     .index__titulo {
         font-size: 5em;
         color: #271cd0;

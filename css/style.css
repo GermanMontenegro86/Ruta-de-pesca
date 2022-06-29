@@ -111,6 +111,8 @@
       color: #117bdf;
       text-decoration: none;
       font-size: 2em; }
+    .lugares__pueblos a:visited {
+      color: red; }
 
 .peces {
   display: flex;
@@ -270,6 +272,9 @@
     margin-left: 378px; }
   .navbar .nav-link {
     color: white; }
+  .navbar .nav-link:hover {
+    background-color: rgba(0, 255, 255, 0.158);
+    border-radius: 10px; }
   .index__titulo {
     font-size: 5em;
     color: #271cd0;
@@ -377,6 +382,9 @@
     margin-left: -60px; }
   .navbar .nav-link {
     color: white; }
+  .navbar .nav-link:hover {
+    background-color: rgba(0, 255, 255, 0.158);
+    border-radius: 10px; }
   .navbar-expand-lg .navbar-nav {
     margin-left: 807px; }
   .index__titulo {
@@ -493,6 +501,9 @@
     color: white; }
     .navbar .nav-link ul {
       margin-left: 807px; }
+  .navbar .nav-link:hover {
+    background-color: rgba(0, 255, 255, 0.158);
+    border-radius: 10px; }
   .navbar-expand-lg .navbar-nav {
     margin-left: 807px; }
   .index__titulo {
@@ -547,7 +558,8 @@
     font-family: sans-serif; }
   .lugares__pueblos a:hover {
     background-color: white;
-    font-family: 'Times New Roman', Times, serif; }
+    font-family: 'Times New Roman', Times, serif;
+    color: black; }
   .peces__titulo {
     font-size: 5em; }
   .peces .cajaPeces h2 {
