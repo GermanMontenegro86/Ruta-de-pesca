@@ -48,8 +48,10 @@
 
     .index .fotoindex img {
         width: 90vw;
-        height: 26vh;
+        height: 29vh;
+        box-shadow: 2px 2px 3px black;
     }
+
 
     .main_lapto {
         display: none;
@@ -57,9 +59,14 @@
 
     .index .indexMain p {
         margin: auto;
-        max-width: 850px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        height: 118px;
+        max-width: 90vw;
+        margin-top: 37px;
+        margin-bottom: 34px;
+        background-color: rgba(15, 15, 15, 0.945);
+        color: #e9bb1d;
+        font-family: $tipoTextos;
+        font-weight: 500;
     }
 
     .lugares {

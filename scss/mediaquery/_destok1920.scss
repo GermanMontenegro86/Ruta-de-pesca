@@ -72,9 +72,14 @@
 
     .index .indexMain p {
         margin: auto;
+        height: 118px;
         max-width: 1216px;
         margin-top: 37px;
         margin-bottom: 34px;
+        background-color: rgba(15, 15, 15, 0.945);
+        color: #e9bb1d;
+        font-family: $tipoTextos ;
+        font-weight: 500;
     }
 
     .lugares {
@@ -166,9 +171,9 @@
 
     .nosotros__p {
         margin: 0 auto;
-        max-width: 850px;
-        font-size: 2em;
-        margin-top: 15px;
+    max-width: 1065px;
+    font-size: 2em;
+    margin-top: 89px;
     }
 
     .noso_for {

@@ -52,8 +52,8 @@
     }
 
     .index .fotoindex img {
-        width: 45vw;
-        height: 49vh;
+        width: 67vw;
+        height: 33vh;
         box-shadow: 2px 2px 3px black;
     }
 
@@ -68,9 +68,14 @@
 
     .index .indexMain p {
         margin: auto;
+        height: 118px;
         max-width: 1216px;
         margin-top: 37px;
         margin-bottom: 34px;
+        background-color: rgba(15, 15, 15, 0.945);
+        color: #e9bb1d;
+        font-family: $tipoTextos;
+        font-weight: 500;
     }
 
     .lugares {
@@ -126,7 +131,7 @@
     }
 
     .peces .fa-solid {
-        transform: translate(-601px, -53px);
+        transform: translate(735px, -53px);
     }
 
     .peces .menu-fi a {
