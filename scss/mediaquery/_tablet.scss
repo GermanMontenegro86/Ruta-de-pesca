@@ -1,141 +1,167 @@
 @media only screen and (min-width: 768px) and (max-width: 914px) {
 
-    .index__titulo {
-     
-      font-size: 7em;
-      
-    }
-  
-    .index .indexMain p,
-    .nosotros__p {
-      max-width: 850px;
-      font-size: 20em;
-    }
-  
-    .navbar .container-fluid {
-     
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  
-    .navbar .dropdown-menu {
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  
-    .navbar .nav-link {
-      font-size: 1.9em;
-    }
-  
-    .navbar .dropdown-item {
-      color: #4d07ff;
-      font-size: 1.9em;
-      
-    }
+  .index__titulo {
+    color: white;
+    font-size: 7em;
 
-    .index .carrusel{
-       
-        height: 27vh;
-    } 
-  
-    .index .indexMain p {
-      font-size: 2em;
-    }
-
-    .lugares__titulo {
-        font-size: 7em;
-    }
-  
-    .peces__titulo {
-      font-size: 7em;
-    }
-  
-    .peces .menu-fi a {
-      font-size: 2em;
-    }
-  
-    .peces .fa-solid {
-      position: fixed;
-      color: white;
-      transform: translate(-372px, -67px);
-      font-size: 3em;
-    }
-  
-    .peces .cajaPeces img {
-      width: 37vw;
-    }
-  
-    .peces .cajaPeces h2 {
-      color: red;
-      text-align: center;
-      margin-top: 36px;
-      font: 5.800000000000001em sans-serif;
-    }
-  
-    .peces .cajaPeces li {
-      font-size: 2em;
-      max-width: 638px;
-    }
-  
-    .peces .foto {
-     
-      height: 27vh;
-    }
-
-    .lugares .foto{
-      
-    height: 27vh;
-  
-    }
-
-    .nosotros__titulo{
-
-        font-size: 7em;
-    }
-
-    .nosotros .foto{
-
-        width: 100vw;
-        height: 27vh;
-    }
-
-    .nosotros__p{
-
-        font-size: 2em;
-    }
-
-    .for{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 78px;
-        margin-bottom: 244px;
-    }
-
-    .form-label{
-        font-size: 1.8em;
-    }
-
-    .form-control{
-        width: 80vw;
-    }
-
-    .btn {
-        margin-top: 10px;
-    }
-
-    
-    .footer {
-      border-top: groove #3ace22;
-      grid: none;
-      &__redes {
-          justify-content: space-evenly;
-          margin-top: -39px;
-      }
   }
 
-    
-    
-    
-  
+  header {
+    background-color: rgba(0, 0, 0, 0.562);
   }
+
+  .index .indexMain p,
+  .nosotros__p {
+    max-width: 699px;
+    font-size: 20em;
+  }
+
+  .index .indexMain .p__media {
+    height: 243px;
+    max-width: 699px;
+  }
+
+  .navbar .container-fluid {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar .dropdown-menu {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar .nav-link {
+    font-size: 1.9em;
+  }
+
+  .navbar .dropdown-item {
+    color: #4d07ff;
+    font-size: 1.9em;
+
+  }
+
+  .index .carrusel {
+    transform: translate(170px, 10px);
+    width: 56vw;
+    margin-bottom: 19px;
+    box-shadow: 0px 0px 4px 1px white
+  }
+
+  .index .indexMain p {
+    font-size: 2em;
+  }
+
+  .lugares__titulo {
+    font-size: 7em;
+  }
+
+  .lugares .foto {
+
+    transform: translate(170px, 10px);
+    width: 56vw;
+    margin-bottom: 19px;
+    box-shadow: 0px 0px 9px 0px #f9fafb;
+  }
+
+  .lugares__pueblos {
+    width: 58vw;
+    margin-top: -3px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 10px 2px #00ff0e38;
+  }
+
+  .peces__titulo {
+    font-size: 7em;
+  }
+
+  .peces .menu-fi a {
+    font-size: 2em;
+  }
+
+  .peces .fa-solid {
+    position: fixed;
+    color: white;
+    transform: translate(-372px, -67px);
+    font-size: 3em;
+  }
+
+  .peces .cajaPeces img {
+    width: 27vw;
+    margin-bottom: 19px;
+  }
+
+  .peces .cajaPeces h2 {
+    color: red;
+    text-align: center;
+    margin-top: 36px;
+    font: 5em sans-serif;
+  }
+
+  .peces .cajaPeces li {
+    font-size: 1em;
+    max-width: 638px;
+    text-align: center;
+  }
+
+  .peces .foto {
+    width: 66vw;
+    height: 50vh;
+    transform: translate(136px, -2px);
+    box-shadow: 0px 0px 10px 2px #00ff0e38;
+  }
+
+  .nosotros__titulo {
+
+    font-size: 7em;
+  }
+
+  .nosotros .foto {
+
+    transform: translate(170px, 10px);
+    width: 56vw;
+    margin-bottom: 19px;
+    box-shadow: 0px 0px 4px 1px white
+  }
+
+  .nosotros__p {
+    max-width: 617px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 2em;
+  }
+
+  .for {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 78px;
+    margin-bottom: 244px;
+  }
+
+  .form-label {
+    font-size: 1.8em;
+  }
+
+  .form-control {
+    width: 80vw;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  .footer {
+    border-top: groove #3ace22;
+    grid: none;
+
+    &__redes {
+      justify-content: space-evenly;
+      margin-top: -39px;
+    }
+  }
+
+}

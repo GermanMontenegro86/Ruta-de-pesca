@@ -9,23 +9,21 @@
     box-shadow: 1px 1px 1px 1px black;
 }
 
-%flexcolumn{
+%flexcolumn {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
 }
 
-%flexrow{
+%flexrow {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 // aca van mixin
-@mixin styleparra ($colorfondotexto, $colortitulo){
+@mixin styleparra ($colorfondotexto, $colortitulo) {
     background-color: $colorfondotexto;
     font-family: sans-serif;
-    color:$colortitulo;
-    
-    
-    
+    color: $colortitulo;
+
 }

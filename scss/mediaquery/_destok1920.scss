@@ -64,21 +64,27 @@
     .index .indexMain__caja img {
         width: 13vw;
         margin: 17px;
+        opacity: 0.8;
     }
 
     .main_lapto {
         display: none;
     }
 
+    .index .indexMain .p__media {
+        height: 88px;
+        max-width:867px;
+    }
+
     .index .indexMain p {
         margin: auto;
-        height: 118px;
-        max-width: 1216px;
+        height: 180px;
+        max-width: 871px;
         margin-top: 37px;
         margin-bottom: 34px;
         background-color: rgba(15, 15, 15, 0.945);
         color: #e9bb1d;
-        font-family: $tipoTextos ;
+        font-family: $tipoTextos;
         font-weight: 500;
     }
 
@@ -157,6 +163,7 @@
         margin-top: 15px;
         margin-bottom: 41px;
         box-shadow: 1px 1px 10px 10px #0b70e7;
+        
     }
 
     .peces .cajaPeces li {
@@ -171,15 +178,15 @@
 
     .nosotros__p {
         margin: 0 auto;
-    max-width: 1065px;
-    font-size: 2em;
-    margin-top: 89px;
+        max-width: 908px;
+        font-size: 2em;
+        margin-top: 89px;
     }
 
     .noso_for {
         background-color: #271cd045;
-        width: 55vw;
-        height: 49vh;
+        width: 29vw;
+        height: 32vh;
         margin: auto;
         margin-top: 148px;
         margin-bottom: 359px;
@@ -191,7 +198,8 @@
     }
 
     #exampleFormControlTextarea1 {
-        height: 31vh;
+        height: 13vh;
+        width: 29vw;
     }
 
     .btn {
@@ -208,7 +216,5 @@
             margin-top: -39px;
         }
     }
-
-
 
 }

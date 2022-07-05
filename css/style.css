@@ -56,6 +56,8 @@
   background-image: url("https://fondosmil.com/fondo/79546.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+  .index .bg-light {
+    padding: 0; }
   .index__titulo {
     text-align: center;
     font-size: 3.5em;
@@ -69,7 +71,13 @@
     background-color: rgba(17, 5, 61, 0.753);
     font-family: sans-serif;
     color: white;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    max-width: 392px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .index .indexMain .p__media {
+    height: 172px; }
   .index .indexMain__caja img {
     width: 30vw;
     margin: 2px;
@@ -205,11 +213,17 @@
 
 @media only screen and (min-width: 768px) and (max-width: 914px) {
   .index__titulo {
+    color: white;
     font-size: 7em; }
+  header {
+    background-color: rgba(0, 0, 0, 0.562); }
   .index .indexMain p,
   .nosotros__p {
-    max-width: 850px;
+    max-width: 699px;
     font-size: 20em; }
+  .index .indexMain .p__media {
+    height: 243px;
+    max-width: 699px; }
   .navbar .container-fluid {
     background-repeat: no-repeat;
     background-size: cover; }
@@ -222,11 +236,27 @@
     color: #4d07ff;
     font-size: 1.9em; }
   .index .carrusel {
-    height: 27vh; }
+    transform: translate(170px, 10px);
+    width: 56vw;
+    margin-bottom: 19px;
+    box-shadow: 0px 0px 4px 1px white; }
   .index .indexMain p {
     font-size: 2em; }
   .lugares__titulo {
     font-size: 7em; }
+  .lugares .foto {
+    transform: translate(170px, 10px);
+    width: 56vw;
+    margin-bottom: 19px;
+    box-shadow: 0px 0px 9px 0px #f9fafb; }
+  .lugares__pueblos {
+    width: 58vw;
+    margin-top: -3px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 10px 2px #00ff0e38; }
   .peces__titulo {
     font-size: 7em; }
   .peces .menu-fi a {
@@ -237,25 +267,33 @@
     transform: translate(-372px, -67px);
     font-size: 3em; }
   .peces .cajaPeces img {
-    width: 37vw; }
+    width: 27vw;
+    margin-bottom: 19px; }
   .peces .cajaPeces h2 {
     color: red;
     text-align: center;
     margin-top: 36px;
-    font: 5.800000000000001em sans-serif; }
+    font: 5em sans-serif; }
   .peces .cajaPeces li {
-    font-size: 2em;
-    max-width: 638px; }
+    font-size: 1em;
+    max-width: 638px;
+    text-align: center; }
   .peces .foto {
-    height: 27vh; }
-  .lugares .foto {
-    height: 27vh; }
+    width: 66vw;
+    height: 50vh;
+    transform: translate(136px, -2px);
+    box-shadow: 0px 0px 10px 2px #00ff0e38; }
   .nosotros__titulo {
     font-size: 7em; }
   .nosotros .foto {
-    width: 100vw;
-    height: 27vh; }
+    transform: translate(170px, 10px);
+    width: 56vw;
+    margin-bottom: 19px;
+    box-shadow: 0px 0px 4px 1px white; }
   .nosotros__p {
+    max-width: 617px;
+    margin: 0 auto;
+    margin-top: 10px;
     font-size: 2em; }
   .for {
     display: flex;
@@ -305,13 +343,14 @@
     text-align: center; }
   .index .fotoindex img {
     width: 90vw;
-    height: 29vh;
+    height: 48vh;
+    opacity: 0.79;
     box-shadow: 2px 2px 3px black; }
   .main_lapto {
     display: none; }
   .index .indexMain p {
     margin: auto;
-    height: 118px;
+    height: 154px;
     max-width: 90vw;
     margin-top: 37px;
     margin-bottom: 34px;
@@ -319,8 +358,11 @@
     color: #e9bb1d;
     font-family: "Tiro Devanagari Hindi", serif;
     font-weight: 500; }
+  .index .indexMain .p__media {
+    height: 89px;
+    max-width: 927px; }
   .lugares {
-    height: 95vh; }
+    height: 100vh; }
   .lugares__parrafo {
     display: flex;
     justify-content: space-around; }
@@ -337,7 +379,8 @@
     text-align: center; }
   .lugares__pueblos img {
     margin-left: -1px;
-    height: 10vh; }
+    height: 25vh;
+    box-shadow: 0px 0px 7px 0px #00f4ff; }
   .lugares__pueblos a {
     font-size: 1.5em;
     background-color: rgba(26, 5, 59, 0.623);
@@ -374,13 +417,13 @@
     font-size: 5em; }
   .nosotros__p {
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 608px;
     font-size: 2em;
     margin-top: 15px; }
   .noso_for {
     background-color: #271cd045;
-    width: 55vw;
-    height: 49vh;
+    width: 60vw;
+    height: 39vh;
     margin: auto;
     margin-top: 148px;
     margin-bottom: 359px;
@@ -388,7 +431,7 @@
   #exampleFormControlInput1 {
     width: 25vw; }
   #exampleFormControlTextarea1 {
-    height: 31vh; }
+    height: 15vh; }
   .btn {
     margin-top: 10px; }
   .footer {
@@ -430,23 +473,29 @@
     text-align: center; }
   .index .fotoindex img {
     width: 67vw;
-    height: 33vh;
+    opacity: 0.79;
     box-shadow: 2px 2px 3px black; }
   .index .indexMain__caja img {
     width: 13vw;
     margin: 17px; }
   .main_lapto {
     display: none; }
+  .index .p__media {
+    height: 90px;
+    max-width: 871px; }
   .index .indexMain p {
     margin: auto;
-    height: 118px;
-    max-width: 1216px;
+    height: 149px;
+    max-width: 981px;
     margin-top: 37px;
     margin-bottom: 34px;
     background-color: rgba(15, 15, 15, 0.945);
     color: #e9bb1d;
     font-family: "Tiro Devanagari Hindi", serif;
     font-weight: 500; }
+  .index .indexMain .p__media {
+    height: 109px;
+    max-width: 967px; }
   .lugares {
     height: 95vh; }
   .lugares__parrafo {
@@ -465,7 +514,8 @@
     text-align: center; }
   .lugares__pueblos img {
     margin-left: -1px;
-    height: 41vh; }
+    height: 41vh;
+    box-shadow: 0px 0px 7px 0px #00f4ff; }
   .lugares__pueblos a {
     font-size: 1.5em;
     background-color: rgba(26, 5, 59, 0.623);
@@ -502,13 +552,13 @@
     font-size: 5em; }
   .nosotros__p {
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 577px;
     font-size: 2em;
     margin-top: 15px; }
   .noso_for {
     background-color: #271cd045;
-    width: 55vw;
-    height: 49vh;
+    width: 41vw;
+    height: 34vh;
     margin: auto;
     margin-top: 148px;
     margin-bottom: 359px;
@@ -516,7 +566,8 @@
   #exampleFormControlInput1 {
     width: 25vw; }
   #exampleFormControlTextarea1 {
-    height: 31vh; }
+    height: 14vh;
+    width: 41vw; }
   .btn {
     margin-top: 10px; }
   .footer {
@@ -564,13 +615,17 @@
     box-shadow: 2px 2px 3px black; }
   .index .indexMain__caja img {
     width: 13vw;
-    margin: 17px; }
+    margin: 17px;
+    opacity: 0.8; }
   .main_lapto {
     display: none; }
+  .index .indexMain .p__media {
+    height: 88px;
+    max-width: 867px; }
   .index .indexMain p {
     margin: auto;
-    height: 118px;
-    max-width: 1216px;
+    height: 180px;
+    max-width: 871px;
     margin-top: 37px;
     margin-bottom: 34px;
     background-color: rgba(15, 15, 15, 0.945);
@@ -633,13 +688,13 @@
     font-size: 5em; }
   .nosotros__p {
     margin: 0 auto;
-    max-width: 1065px;
+    max-width: 908px;
     font-size: 2em;
     margin-top: 89px; }
   .noso_for {
     background-color: #271cd045;
-    width: 55vw;
-    height: 49vh;
+    width: 29vw;
+    height: 32vh;
     margin: auto;
     margin-top: 148px;
     margin-bottom: 359px;
@@ -647,7 +702,8 @@
   #exampleFormControlInput1 {
     width: 25vw; }
   #exampleFormControlTextarea1 {
-    height: 31vh; }
+    height: 13vh;
+    width: 29vw; }
   .btn {
     margin-top: 10px; }
   .footer {

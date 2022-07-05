@@ -4,6 +4,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    .bg-light {
+        padding: 0;
+    }
+
     &__titulo {
         text-align: center;
         font-size: 3.5em;
@@ -11,9 +15,9 @@
         font-family: $tipoTitulo;
     }
 
-    .fotoindex{
-       display: none;
-       
+    .fotoindex {
+        display: none;
+
     }
 
     .carrusel {
@@ -23,10 +27,17 @@
     .indexMain {
 
         p {
-           @extend %parrafos;
-           @include styleparra($colorfondotexto, $colortitulo);
-           font-family: $tipoTitulo;
-           
+            @extend %parrafos;
+            @include styleparra($colorfondotexto, $colortitulo);
+            font-family: $tipoTitulo;
+            max-width: 392px;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .p__media {
+            height: 172px;
         }
 
         &__caja {
@@ -41,10 +52,5 @@
         }
 
     }
-
-
-
-
-
 
 }

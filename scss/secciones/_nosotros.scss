@@ -1,31 +1,32 @@
-.nosotros{
+.nosotros {
     display: flex;
     flex-direction: column;
     background-color: $colorfondo;
-    &__titulo{
+
+    &__titulo {
         text-align: center;
-    font-size: 3.5em;
-    color:$colortitulo;
-    font-family: $tipoTitulo;
+        font-size: 3.5em;
+        color: $colortitulo;
+        font-family: $tipoTitulo;
 
     }
 
-    .foto{
+    .foto {
         width: 100vw;
     }
 
-    &__p{
-       @extend %parrafos;
-       @include styleparra( rgba(255, 0, 0, 0.212), $colortitulo);
-       font-family: $tipoTextos;
+    &__p {
+        @extend %parrafos;
+        @include styleparra(rgba(255, 0, 0, 0.212), $colortitulo);
+        font-family: $tipoTextos;
     }
 
-    .form-label{
+    .form-label {
         color: red;
-        
+
     }
 
-    .btn{
+    .btn {
         margin-top: 12px;
     }
 
